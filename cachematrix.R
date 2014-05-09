@@ -1,6 +1,6 @@
 ## Two functions to calculate a special matrix containing the cached inverse
 ## and to calculate or cache the inverse matrix.
-## Usage example create a random square matrix :
+## Usage example; create a random square matrix :
 ## set.seed(1234) 
 ## myMat<-matrix(rnorm(9),3)
 ## Create the special matrix object:
@@ -19,6 +19,7 @@
 # 2. Get matix
 # 3. Set the inverse matrix
 # 4. Get the inverse matrix
+
 makeCacheMatrix <- function(x = matrix()) {
         # inv stores the cached inverse matrix
         inv <- NULL
